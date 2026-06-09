@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>F&B Spezialbau | Schweiz</title>
+
+<meta name="description" content="Spezialbau, Bodenbearbeitung und Untergrundvorbereitung in der Schweiz. Präzise, sauber und zuverlässig." />
+
+<style>
+:root{
+  --bg:#0b1220;
+  --card:#111a2e;
+  --accent:#38bdf8;
+  --text:#ffffff;
+  --muted:rgba(255,255,255,0.7);
+}
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+
+body{
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.6;
+}
+
+/* HEADER */
+header{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:rgba(11,18,32,0.85);
+  backdrop-filter:blur(10px);
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  z-index:1000;
+}
+
+header h1{
+  font-size:16px;
+  letter-spacing:1px;
+}
+
+nav a{
+  color:var(--text);
+  margin-left:20px;
+  text-decoration:none;
+  font-size:14px;
+  opacity:0.8;
+}
+
+nav a:hover{opacity:1}
+
+/* HERO */
+.hero{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:20px;
+  background:
+    linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
+    url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1600&q=80');
+  background-size:cover;
+  background-position:center;
+}
+
+.hero h2{
+  font-size:48px;
+  margin-bottom:10px;
+}
+
+.hero p{
+  color:var(--muted);
+  margin-bottom:20px;
+}
+
+.btn{
+  display:inline-block;
+  padding:12px 22px;
+  margin:5px;
+  background:var(--accent);
+  color:#000;
+  font-weight:bold;
+  border-radius:6px;
+  text-decoration:none;
+}
+
+/* SECTIONS */
+section{
+  padding:90px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+h3{
+  text-align:center;
+  font-size:30px;
+  margin-bottom:30px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:var(--card);
+  padding:20px;
+  border-radius:10px;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+/* CONTACT BOX */
+.contact-box{
+  text-align:center;
+  background:var(--card);
+  padding:30px;
+  border-radius:12px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:40px;
+  background:#050814;
+  font-size:13px;
+  color:var(--muted);
+}
+
+/* FLOAT BUTTON */
+.whatsapp{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  background:#25D366;
+  color:#000;
+  padding:12px 16px;
+  border-radius:50px;
+  font-weight:bold;
+  text-decoration:none;
+  box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>F&B Spezialbau</h1>
+  <nav>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#projekte">Projekte</a>
+    <a href="#firmen">Firmen</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div>
+    <h2>Spezialbau & Bodenvorbereitung</h2>
+    <p>Präzise. Sauber. Termintreu.</p>
+    <a class="btn" href="#kontakt">Projekt anfragen</a>
+    <a class="btn" href="#leistungen">Leistungen</a>
+  </div>
+</div>
+
+<!-- LEISTUNGEN -->
+<section id="leistungen">
+  <h3>Leistungen</h3>
+  <div class="grid">
+    <div class="card">Untergrundvorbereitung</div>
+    <div class="card">Kugelstrahlen</div>
+    <div class="card">Industrieböden</div>
+    <div class="card">Rückbauarbeiten</div>
+    <div class="card">Sanierungen</div>
+    <div class="card">Spezialarbeiten</div>
+  </div>
+</section>
+
+<!-- PROJEKTE -->
+<section id="projekte">
+  <h3>Projekte</h3>
+  <div class="grid">
+    <div class="card">Industriehalle Zürich</div>
+    <div class="card">Tiefgarage Sanierung</div>
+    <div class="card">Neubau Bodenaufbereitung</div>
+  </div>
+</section>
+
+<!-- FIRMA 2 -->
+<section id="firmen">
+  <h3>Unsere Unternehmen</h3>
+  <div class="grid">
+
+    <div class="card">
+      <h4>F&B Spezialbau</h4>
+      <p>Spezialisiert auf Boden- und Untergrundarbeiten in der Schweiz.</p>
+    </div>
+
+    <div class="card">
+      <h4>Zweite Firma</h4>
+      <p>Eigenständige Firma für einen anderen Geschäftsbereich.</p>
+      <a class="btn" href="https://DEINE-ZWEITE-FIRMA.CH" target="_blank">
+        Zur zweiten Firma
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="kontakt">
+  <h3>Kontakt</h3>
+
+  <div class="contact-box">
+    <p>Projekt besprechen oder Offerte anfragen</p>
+    <br/>
+
+    <a class="btn" href="mailto:info@fbspezialbau.ch">E-Mail senden</a>
+    <a class="btn" href="tel:+41000000000">Anrufen</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 F&B Spezialbau | Schweiz<br/>
+  Multi-Firma Struktur | Modern Web Presence
+</footer>
+
+<!-- WhatsApp Button -->
+<a class="whatsapp" href="https://wa.me/41000000000" target="_blank">
+  WhatsApp
+</a>
+
+</body>
+</html>
