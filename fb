@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>F&B Spezialbau GmbH</title>
+
+    <meta name="description"
+        content="F&B Spezialbau - Ihr Spezialist für Kugelstrahlen, Untergrundvorbereitung und Bodenbearbeitung in der Schweiz.">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+
+        <div class="container">
+
+            <div class="logo">
+                <img src="assets/logo.jpg" alt="F&B Spezialbau">
+            </div>
+
+            <nav class="navbar">
+
+                <ul>
+                    <li><a href="#home">Start</a></li>
+                    <li><a href="#leistungen">Leistungen</a></li>
+                    <li><a href="#ueber-uns">Über Uns</a></li>
+                    <li><a href="#referenzen">Referenzen</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+
+            </nav>
+
+            <a href="#kontakt" class="btn-nav">
+                Offerte anfordern
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- Hero -->
+
+    <section id="home" class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="hero-content">
+
+            <span class="hero-subtitle">
+                SCHWEIZWEIT IM EINSATZ
+            </span>
+
+            <h1>
+                SPEZIALBAU MIT
+                <span>PRÄZISION.</span>
+            </h1>
+
+            <p>
+                Professionelle Untergrundvorbereitung,
+                Kugelstrahlen und Bodenbearbeitung
+                für Industrie, Gewerbe und Bauprojekte.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#kontakt" class="btn-primary">
+                    Offerte anfordern
+                </a>
+
+                <a href="#referenzen" class="btn-secondary">
+                    Projekte ansehen
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Leistungen -->
+
+    <section id="leistungen" class="services">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>UNSERE LEISTUNGEN</span>
+
+                <h2>
+                    Lösungen für höchste Anforderungen
+                </h2>
+
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <h3>Kugelstrahlen</h3>
+                    <p>
+                        Professionelle Oberflächenvorbereitung
+                        für langlebige Beschichtungen.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Untergrundvorbereitung</h3>
+                    <p>
+                        Optimale Vorbereitung von Beton-
+                        und Industrieböden.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Bodenbearbeitung</h3>
+                    <p>
+                        Fräsen, Schleifen und Entfernen
+                        alter Beschichtungen.
+                    </p>
+                </div>
+
+                <div class="service-card">
+                    <h3>Spezialbau</h3>
+                    <p>
+                        Individuelle Lösungen für
+                        komplexe Bauprojekte.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Über Uns -->
+
+    <section id="ueber-uns" class="about">
+
+        <div class="container about-grid">
+
+            <div>
+
+                <span class="section-tag">
+                    F&B SPEZIALBAU
+                </span>
+
+                <h2>
+                    Erfahrung. Qualität. Zuverlässigkeit.
+                </h2>
+
+                <p>
+                    Mit modernster Technik und langjähriger
+                    Erfahrung unterstützen wir Unternehmen,
+                    Bauherren und Industriepartner bei
+                    anspruchsvollen Projekten.
+                </p>
+
+                <ul class="about-list">
+                    <li>✔ Schweizweit im Einsatz</li>
+                    <li>✔ Moderne Maschinen</li>
+                    <li>✔ Erfahrenes Fachpersonal</li>
+                    <li>✔ Termingerechte Ausführung</li>
+                </ul>
+
+            </div>
+
+            <div class="stats-box">
+
+                <div class="stat">
+                    <h3>20+</h3>
+                    <p>Jahre Erfahrung</p>
+                </div>
+
+                <div class="stat">
+                    <h3>2500+</h3>
+                    <p>Projekte</p>
+                </div>
+
+                <div class="stat">
+                    <h3>100%</h3>
+                    <p>Engagement</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Referenzen -->
+
+    <section id="referenzen" class="projects">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>REFERENZEN</span>
+
+                <h2>Erfolgreiche Projekte</h2>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd" alt="">
+                    <div class="project-info">
+                        <h3>Industrieboden</h3>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5" alt="">
+                    <div class="project-info">
+                        <h3>Parkhaus Sanierung</h3>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="">
+                    <div class="project-info">
+                        <h3>Gewerbehalle</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Kontakt -->
+
+    <section id="kontakt" class="contact">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>KONTAKT</span>
+
+                <h2>Jetzt Offerte anfordern</h2>
+
+            </div>
+
+            <form class="contact-form">
+
+                <input type="text" placeholder="Name">
+
+                <input type="email" placeholder="E-Mail">
+
+                <input type="text" placeholder="Telefon">
+
+                <textarea rows="5" placeholder="Ihre Nachricht"></textarea>
+
+                <button type="submit">
+                    Anfrage senden
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="container footer-content">
+
+            <img src="assets/logo.jpg" alt="F&B Spezialbau">
+
+            <p>
+                © 2026 F&B Spezialbau GmbH
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
